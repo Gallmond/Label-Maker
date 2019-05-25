@@ -1,0 +1,6 @@
+Run SkysBarcodeMaker.exe to populate!
+==== 2019-05-25 14:39:39 ====
+> csv loaded with 13 rows
+> successfully processed 12 rows
+> failed to process 1 rows with errors:
+row 1: ValueError trying to parse row: ['Barcode', 'Sku', 'Name', 'Colour']

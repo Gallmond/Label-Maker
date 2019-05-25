@@ -1,0 +1,40 @@
+<html>
+<head>
+	<style>
+	    @page {
+			size: 2in 1.5in;
+	        @frame content_frame {
+				left: 5pt;
+				/*width: 150pt;*/
+				top: 7pt;
+				/*height: 100pt;*/
+				/*-pdf-frame-border: 1;    */
+				/* for debugging the layout */
+	        }
+	    }
+	    span{
+	    	margin:0px;
+	    	padding:0px;
+	    }
+	    .description{
+	    	font-size: 7pt;
+	    }
+	    .pnumber, .colour{
+	    	font-weight: 700;
+	    	font-size: 10pt !important;
+	    }
+	    .barcode{
+	    	margin:0px auto;
+	    	margin-left: 15px;
+	    }
+	</style>
+</head>
+<body>
+	<span class="pnumber">P_NUMBER_VALUE_HERE</span><br>
+	<span class="colour">COLOUR_VALUE_HERE</span><br>
+	<span class="description">DESCRIPTION_VALUE_HERE</span><br>
+	<span class="barcode">
+		<pdf:barcode value="BARCODE_VALUE_HERE" type="ean13" humanreadable="1" align="baseline" barwidth="1" barheight="50" />
+	</span>
+</body>
+</html>
