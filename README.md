@@ -1,5 +1,5 @@
 # Label Maker
-Simple executable that builds barcoded .pdfs for printing as labels.
+Simple bespoke executable that builds barcoded .pdfs for printing as labels.
 
 ----
 
